@@ -1,0 +1,14 @@
+@media (max-width: 767px) {
+    .img {
+        display: none;
+    }
+    
+    .encLet { 
+        font: bold 40px consolas;
+    }
+    .log {
+        letter-spacing: 3px;
+        padding: 15px 15px;
+    }
+
+}

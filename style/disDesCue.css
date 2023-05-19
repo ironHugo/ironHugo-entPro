@@ -1,0 +1,66 @@
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 100%;
+}
+#mosMen {
+    display: none;
+}
+/*************************** contenido superior del cuerpo ************************/
+.conSup  { 
+    text-align: center;
+}
+.encCue { 
+    color: white;
+    font: bold 24px arial;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+.conSup form select {
+    background: black;
+    color: white;
+    padding: 3px;
+    width: 120px;
+}
+/************************* Contenido central del cuuerpo *************************/
+.box { 
+    position: obsolute;
+    width: 180px;
+    height: 180px;
+    transform-style: preserve-3d;
+    animation: carrosel 20s linear infinite;
+}
+@keyframes carrosel {
+    from {transform: perspective(1000px) rotateY(0deg);}
+    to {transform: perspective(1000px) rotateY(360deg);}
+}
+.box span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transform: rotateY(calc(var(--i)* 45deg)) translateZ(260px);
+    -webkit-box-reflect: below 0px linear-gradient(transparent, transparent, #000040);
+    
+}
+.box span img { 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   
+}
+
+
+/*************************** contenido inferior del cuerpo ************************/
+.conInf {
+    color: white;
+    font: bold 15px verdana;
+}

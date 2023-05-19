@@ -1,0 +1,69 @@
+/* Sección correspondiente al aside.*/
+aside { color: white;
+    /*border: 1px solid white;*/
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    vertical-align: center;
+}
+aside h2 {
+    font: bold 15px verdana;
+    margin: 15px 0;
+    text-align: center;
+}
+.item { border: 1px solid white;
+    background: rgb(37, 37, 37);
+    border-radius: 5px;
+    margin: 10px auto;
+    width: 90%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    vertical-align: center;
+    transition: transform 2s, box-shadow 2s;
+    box-shadow: 2px 2px 15px blue;
+}
+.item:hover {
+    transform: scale(1.1,1.1);
+    box-shadow: 2px 2px 15px white, 3px 3px 15px blue;
+}
+.datIte { /*border: 1px solid blue;*/
+    width: 66%;
+    height: 70px;
+    margin-top: 3px;
+}
+.tem, .dis, .ban { /*border: 1px solid white;*/
+    padding-left: 3px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.tem { 
+    font: bold 18px 'arial narrow';
+}
+.dis { 
+    font: italic 12px arial;
+}
+.ban { 
+    font: bold 10px 'arial black';
+}
+.vot { /*border: 1px solid white;*/
+    font: normal 10px arial;
+    text-align: center;
+    height: 19px;
+}
+.up {
+    margin-bottom: 2px;
+}
+.girMan {transform: rotate(180deg);
+    margin-top: 3px;
+}
+
+.tap { /*border: 1px solid white;*/
+    width: 68px;
+    height: 68px;
+    margin-top: 4px;
+}
+

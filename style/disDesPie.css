@@ -1,0 +1,18 @@
+/* Pie de página */
+footer { 
+    text-align: center;
+    color: #ccb3b3;
+    font: bold 13px arial;
+    letter-spacing: 3px;
+    padding-top: 5px;
+    background: radial-gradient(farthest-side at bottom right, rgb(88, 87, 87), rgb(37, 37, 37));
+}
+footer a { color: #ccb3b3;
+    text-decoration: none;
+}
+#lin { font-size: 10px;
+    letter-spacing: 0px;
+    border: 1px solid #ccb3b3;
+    padding: 1px 2px;
+    border-radius: 2px;
+}

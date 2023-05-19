@@ -1,0 +1,35 @@
+@media (max-width: 767px) {
+    section { 
+        justify-content: space-between;
+    }
+    .conSup {
+        width: 100%;
+    }
+    .encCue { 
+        letter-spacing: 1px;
+        margin-top: 50px;
+    }
+    .conSup #mosMen {
+        margin-top: 10px;
+        display: block;
+        position: relative;
+        float: left;
+        color: white;
+        border: 2px solid white;
+        border-radius: 5px;
+        padding: 5px;
+
+    }
+    .modAlt { 
+        font-size: 24px;
+    }
+
+    .box {
+        width: 120px;
+        height: 120px;
+    }
+    .box span {
+        transform: rotateY(calc(var(--i) * 45deg)) translateZ(210px);
+    }
+    
+}

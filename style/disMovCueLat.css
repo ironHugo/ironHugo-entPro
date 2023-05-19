@@ -1,0 +1,13 @@
+@media (max-width: 767px) {
+    aside {
+        overflow:visible;
+        margin-bottom: 13px;
+    }
+    aside h2 {
+        letter-spacing: 2px;
+    }
+    .datIte {
+        width: 50%;
+        letter-spacing: 2px;
+    }
+}

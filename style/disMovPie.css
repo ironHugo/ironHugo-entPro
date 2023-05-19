@@ -1,0 +1,10 @@
+@media (max-width: 767px) {
+    footer {
+        font-size: 11px;
+        letter-spacing: 1.5px;
+        padding-top: 10px;
+    }
+    footer p{
+        line-height: 16px;
+    }
+}

@@ -1,0 +1,36 @@
+/* Para pantallas u con una resolución mayor a 1024px. */
+@import url('./disDesCab.css');
+@import url('./disDesCue.css');
+@import url('./disDesPie.css');
+@import url('./disDesMen.css');
+@import url('./disDesCueLat.css');
+
+main {width: 1024px;
+    /*background: red;*/
+    height: 100vh;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1.5fr 6fr 2.5fr;
+    grid-template-rows: 150px 460px 80px;
+    grid-template-areas: 'header header header'
+                            'nav    section aside'
+                            'footer footer footer';
+}
+
+
+header {
+    /*background: blue;*/
+    grid-area: header;
+}
+nav {/*background: cyan;*/
+    grid-area: nav;
+}
+section {/*background: pink;*/
+    grid-area: section;
+}
+aside {/*background: orange;*/
+    grid-area: aside;
+}
+footer {/*background: green;*/
+    grid-area: footer;
+}

@@ -1,0 +1,21 @@
+/* Resolución para dispositivos smartphone. */
+@import url('./disMovCab.css');
+@import url('./disMovCue.css');
+@import url('./disMovPie.css');
+@import url('./disMovMen.css');
+@import url('./disMovCueLat.css');
+
+@media (max-width: 767px) {
+    main {width: 500px;
+        /*max-width: 767px;*/
+        
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 150px 450px auto 90px;
+        grid-template-areas: 'header header'
+                             'section section'
+                             'aside aside'
+                             'footer footer';
+    }
+
+    
+}

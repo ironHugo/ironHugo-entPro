@@ -1,0 +1,21 @@
+/* Resolución para tablets. 768px 1024px */
+@import url('./disTabCab.css'); 
+@import url('./disTabCue.css');
+@import url('./disTabPie.css');
+@import url('./disTabMen.css');
+
+@media (min-width: 768px) and (max-width: 1023px) {
+   
+    main { /*background: pink;*/
+        min-width: 768px;
+        max-width: 870px;
+        grid-template-columns: 7fr 3fr;
+        grid-template-rows: 120px 50px 450px 80px;
+        grid-template-areas: 'header header'
+                             'nav nav'
+                             'section aside'
+                             'footer footer';
+    }
+
+    
+}

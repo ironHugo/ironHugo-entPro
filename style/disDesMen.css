@@ -1,0 +1,45 @@
+nav { /*order: 1px solid white; */
+    font: bold 1.1em verdana Helvetica;
+    line-height: 35px;
+    display: block;
+}
+nav ul { margin-top: 20px;
+    border-right: 1px solid #666;
+    background: #9CC;
+    list-style: none;
+    box-shadow: 3px 3px 15px blue;
+}
+#menCol{
+    display: none;
+}
+nav ul li {
+    height: 35px;
+    border-top: 1px solid #003;
+}
+
+nav ul li a, nav ul li a[href="#"]:hover {
+    display: block;
+    padding: 2px 2px 2px 0.5em;
+    border-left: 10px solid #369;
+    border-right: 2px solid #69C; 
+    border-bottom: 2px solid #369; 
+    background: rgb(37, 37, 37);
+    color: rgb(187, 124, 124);
+    text-decoration: none;
+    width: 100%; 
+}
+
+nav ul li a:hover{
+    border-left: 10px solid #036;
+    border-right: 2px solid #36C;
+    border-bottom: 2px solid #369;
+    background: rgb(169, 134, 197);
+    color: #773232; 
+}
+nav ul li a[href="#"], nav ul li a[href="#"]:hover {
+    color: green;
+    background: red;
+}
+nav ul li a[href="#"]:hover {
+    cursor: default;
+}
